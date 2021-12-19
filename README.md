@@ -6,8 +6,14 @@
 
 ## Challenges
 
-###### <i> #Challenge_1 <i>
+###### <i> #Challenge_1 </i>
 
 ### Pomodoro Timer
 
 ![Pomodoro_Timer](https://user-images.githubusercontent.com/64985447/146601717-f4b97312-011b-4853-8d57-861d69ef65ca.png)
+
+###### <i> #Challenge_2 </i>
+
+### E-Commerce Component
+
+![E-Commerce_Component](https://user-images.githubusercontent.com/64985447/146677828-14cef02a-5d96-485d-a750-88d8ca969865.png)
