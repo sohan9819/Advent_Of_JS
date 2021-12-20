@@ -17,3 +17,9 @@
 ### E-Commerce Component
 
 ![E-Commerce_Component](https://user-images.githubusercontent.com/64985447/146677828-14cef02a-5d96-485d-a750-88d8ca969865.png)
+
+###### <i> #Challenge_2 </i>
+
+### Piano
+
+![Piano](https://user-images.githubusercontent.com/64985447/146824426-8bb84cc4-483b-4692-a44b-bf1eef1fd0e0.png)
