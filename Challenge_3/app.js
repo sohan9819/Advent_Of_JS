@@ -45,17 +45,26 @@ keyBoardList = [
 window.addEventListener("keypress", (e) => {
   let keyIndex = keyBoardList.indexOf(e.code);
   0 <= keyIndex < 23 ? playAudio(keyIndex) : console.log("key not registered");
-  setTimeout(keyHover(keyIndex), 1000);
-  //   keyHover(keyIndex);
+  console.log(keyIndex, typeof keyIndex);
+  keyBlock = keys[keyIndex].childNodes[1];
+  //   console.dir(keyBlock);
+  if (0 <= keyIndex && keyIndex < 14) {
+    keyBlock.style.fill = "#ffd200";
+    // keyBlock.focus();
+  } else if (14 <= keyIndex && keyIndex < 23) {
+    keyBlock.style.fill = "#f40082";
+  }
+  keyHoverRemove(keyIndex, keyBlock);
 });
 
-function keyHover(keyindex) {
-  console.log(keys[keyindex].childNodes[1]);
-
-  keys[keyindex].childNodes[1].style.fill = "#ffd200";
-}
-
-function keyHoverRemove(keyindex) {
-  console.log(keys[keyindex].childNodes[1]);
-  keys[keyindex].childNodes[1].style.fill = "white";
+function keyHoverRemove(keyIndex, keyBlock) {
+  keys.forEach((element) => {
+    element.childNodes[1].addEventListener("transitionend", (e) => {
+      if (0 <= keyIndex && keyIndex < 14) {
+        keyBlock.style.fill = "white";
+      } else if (14 <= keyIndex && keyIndex < 23) {
+        keyBlock.style.fill = "black";
+      }
+    });
+  });
 }

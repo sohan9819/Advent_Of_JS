@@ -12,16 +12,24 @@ body {
 
 .white-keys {
   fill: white;
+  transition: all 0.1s ease-in-out;
 }
 
 .white-keys:hover {
   fill: #ffd200;
 }
+.white-keys:focus {
+  fill: #ffd200;
+}
 
 .black-keys {
   fill: black;
+  transition: all 0.1s ease-in-out;
 }
 
-.black-keys:focus {
+.black-keys:hover {
   fill: #f40082;
 }
+/* .black-keys:focus {
+  fill: #f40082;
+} */
