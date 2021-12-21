@@ -33,6 +33,7 @@ function keyActivation() {
 }
 
 function gameChecker(e) {
+  console.log(e.key);
   keys[randomIndex].dataset.key === e.key.toUpperCase()
     ? rightAns()
     : wrongAns();
@@ -52,4 +53,4 @@ function wrongAns() {
   randomIndex = keyActivation();
 }
 
-window.addEventListener("keypress", gameChecker);
+document.addEventListener("keydown", gameChecker);
