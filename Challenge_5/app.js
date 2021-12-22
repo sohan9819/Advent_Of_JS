@@ -150,15 +150,26 @@ const episodes = [
 ];
 
 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-let inbetween = false;
-
+let lastChecked = null;
 const handleCheck = (e) => {
-  console.log(e.target.checked);
+  // console.log(this);
+  let inBetween = false;
+
+  lastChecked === null ? (lastChecked = e.target) : '';
+
   if (e.shiftKey && e.target.checked) {
-    e.target.checked = !e.target.checked;
+    checkboxes.forEach((checkbox) => {
+      if (checkbox == e.target || checkbox == lastChecked) {
+        inBetween = !inBetween;
+      }
+
+      if (inBetween) {
+        checkbox.checked = true;
+      }
+    });
   }
-  // let lastChecked = e.target;
-  // console.log(e.shiftKey);
+
+  lastChecked = e.target;
 };
 
 checkboxes.forEach((checkbox) => {
