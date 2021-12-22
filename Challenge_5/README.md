@@ -38,3 +38,7 @@ You can use as many (or as few) tools, libraries, and frameworks as you'd like. 
   - Check out the [Learn Build Teach Discord.](http://learnbuildteach.com) We have a specific channel set up, just for the Advent of JavaScript.
 - Can I use this project in my portfolio?
   - Sure! But, be honest about the work that _you_ did
+
+## Final Look
+
+![Multiple_Checkboxes](https://user-images.githubusercontent.com/64985447/147146723-651b6ebd-fc5c-4b95-8f8d-b86a8cdace2d.png)
