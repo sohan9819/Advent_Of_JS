@@ -30,8 +30,14 @@
 
 ![Eyes_on_the_Screen](https://user-images.githubusercontent.com/64985447/146922254-92460063-7631-4cee-9b42-2c3c6c608aeb.png)
 
-###### <i> #Challenge_4 </i>
+###### <i> #Challenge_5 </i>
 
 ### Multiple Checkboxes
 
 ![Multiple_Checkboxes](https://user-images.githubusercontent.com/64985447/147146723-651b6ebd-fc5c-4b95-8f8d-b86a8cdace2d.png)
+
+###### <i> #Challenge_6 </i>
+
+### Range Slider
+
+![Range_Slider](https://user-images.githubusercontent.com/64985447/147249390-cc08f0da-61c8-488e-beca-1e075e8fbe59.png)
