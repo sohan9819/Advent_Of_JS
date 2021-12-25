@@ -41,3 +41,9 @@
 ### Range Slider
 
 ![Range_Slider](https://user-images.githubusercontent.com/64985447/147249390-cc08f0da-61c8-488e-beca-1e075e8fbe59.png)
+
+###### <i> #Challenge_7 </i>
+
+### Tip Calculator
+
+![Tip_Calculator](https://user-images.githubusercontent.com/64985447/147391032-75d88955-05f7-4ef6-b411-a1fbff5d3c06.png)
